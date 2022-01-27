@@ -2,8 +2,21 @@
 # is the same as where this file is located and then run:
 # ruby 5-loops.rb
 
-things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts"]
+things_that_would_be_better_with_bacon = ["tacos", "cheeseburgers", "donuts", "ice cream", "peanut butter"]
 
 # The Old Way
 
+puts "bacon #{things_that_would_be_better_with_bacon[0]}"
+puts "bacon #{things_that_would_be_better_with_bacon[1]}"
+puts "bacon #{things_that_would_be_better_with_bacon[2]}"
+puts "bacon #{things_that_would_be_better_with_bacon[3]}"
+
 # The New Way
+
+# for _____ in things_that_would_be_better_with_bacon
+#     #do some code
+# end
+
+for food in things_that_would_be_better_with_bacon
+    puts "bacon #{food}"
+end
