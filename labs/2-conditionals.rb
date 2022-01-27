@@ -33,14 +33,14 @@ total = die_1 + die_2
 
 puts "Die 1 is " + die_1.to_s
 puts "Die 2 is " + die_2.to_s
-puts "total is #{total}"
+puts "Total is #{total}"
 
 if total == 7 || total == 11
-    puts "you win!!"
+    puts "You win!!"
 elsif total == 2 || total == 3 || total == 12
-    puts "you lose!"
+    puts "You lose!!"
 else 
-    puts "the point is #{total} "
+    puts "The point is #{total} "
 end
 
 
